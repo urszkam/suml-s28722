@@ -7,7 +7,6 @@ This project uses Git hooks managed by pre-commit to validate code and configura
 - **mypy**: checks Python types for common errors.
 - **terraform fmt**: formats Terraform files to canonical HCL style.
 - **check-yaml**: validates YAML syntax.
-- **end-of-file-fixer**: fixes trailing whitespace and newline issues.
 - **detect-private-key**: detects private keys in staged files.
 - **detect-secrets**: flags likely secrets and tokens.
 - **Conventional Commits**: enforces a consistent commit message format.
