@@ -74,8 +74,8 @@ jobs:
 
       - name: Run TFLint
         run: |
-          tflint --config=../config/.tflint.hcl --init
-          tflint --config=../config/.tflint.hcl --recursive
+          tflint --config="${{ github.workspace }}/config/.tflint.hcl" --init
+          tflint --config="${{ github.workspace }}/config/.tflint.hcl" --recursive
 
   terraform-checkov:
     name: Checkov
